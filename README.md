@@ -1,2 +1,5 @@
-# Portf-lio
-Portfólio primeiro trimestre
+# Portfólio
+## Sobre mim ##
+ Me chamo Isabela, vou fazer 17 anos. Sou uma pessoa curiosa e que gosta de desafios, talvez uma rotina corrida e com algo que eu goste. Estou fazendo pré vestibular para concursar enfermagem, faço handboll, trabalho pela tarde e estudo pela manhã.
+ ## o que vou apresentar neste porfólio ##
+  Vou mostrar alguns projetos que fazemos durante a aula de desenvolvimento de sistemas. Durante o trimestre.
