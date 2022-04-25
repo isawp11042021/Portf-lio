@@ -11,3 +11,5 @@ isa@isa-VirtualBox:~irmao_jorel_familia
 Utilizando caminho relativo, com apenas UM comando vá para o diretório irmao_jorel_amigos.
 isa@isa-VirtualBox:~irmao_jorel_familia$ cd../irmao_jorel_amigos
 isa@isa-VirtualBox:~irmao_jorel_amigos$
+
+Usei esta atividade pois me ajudou na fixação dos comandos.
