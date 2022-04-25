@@ -13,6 +13,7 @@
   
   [Atividade fixação.java](https://github.com/isawp11042021/Portf-lio/blob/main/logica_computacional/Atividade%20fixa%C3%A7%C3%A3o.java) 
   : Usei esta atividade pois me ajudou na fixação dos comandos.
+  
  [JanelaJOption.java ](https://github.com/isawp11042021/Portf-lio/blob/main/logica_computacional/JanelaJOption.java)
  :usei esta atividade pois gostei da atividade, criamos diálogos com o computador.
 
