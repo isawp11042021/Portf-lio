@@ -1,0 +1,128 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int N, M, S;
+
+int main (void) {
+    scanf ("%d%d%d", &N, &M, &S);
+
+    bool achou = false;
+    int resp;
+		
+    for (int i=M; i>N; i--) {
+      int soma = 0;
+      int x = i;
+      while (x > 0) {
+	soma += x % 10;
+	x /= 10;
+      }
+      if (soma == S) {
+	achou = true;
+	resp = i;
+	break;
+      }
+    }	    
+    
+    if (achou)
+      printf("%d\n", resp);
+    else
+      printf("-1\n");
+
+
+    return 0;
+}
+
+
+
+
+var N, M, S;
+
+scanf("%d%d%d","N","M","S");
+
+var achou = false;
+var resp;
+		
+for (var i=M; i>N; i--) {
+    var soma = 0;
+    var x = i;
+    while (x > 0) {
+	soma += x % 10;
+	x /= 10;
+	x = Math.floor(x)
+    }
+    if (soma == S) {
+	achou = true;
+	resp = i;
+	break;
+    }
+}	    
+
+if (achou)
+    printf("%d\n",resp);
+else
+    printf("-1\n");
+
+
+
+r
+
+import java.util.Scanner;
+
+public class maior {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+		int N = in.nextInt();
+		int M = in.nextInt();
+		int S = in.nextInt();
+		boolean achou = false;
+		int resp = 0; // java quer que inicialize, embora neste caso não precise...
+		
+		for (int i=M; i>N; i--) {
+		    int soma = 0;
+		    int x = i;
+		    while (x > 0) {
+			soma += x % 10;
+			x /= 10;
+		    }
+		    if (soma == S) {
+			achou = true;
+			resp = i;
+			break;
+		    }
+		}	    
+
+		if (achou)
+		    System.out.println(resp);
+		else
+		    System.out.println(-1);
+	}
+}
+
+
+
+
+N = int(input())
+M = int(input())
+S = int(input())
+
+achou = False
+for i in range(M, N - 1, -1):
+    soma = 0
+    x = i
+    while x > 0:
+        soma += x % 10
+        x //= 10
+    if soma == S:
+        achou = True
+        resp = i
+        break
+
+if achou:
+    print(resp)
+else:
+    print(-1)
+
+
