@@ -1,0 +1,18 @@
+ public static void main(String[] args) {
+         volPrisma();
+        double ab = Double.parseDouble(JOptionPane.showInputDialog("Área da base"));
+        double h = Double.parseDouble(JOptionPane.showInputDialog("Altura"));
+        
+        JOptionPane.showMessageDialog(null,volPrisma(ab, h));
+       
+    }
+    
+        public static double volPrisma(double ab, double h){
+    return ab*h;
+    int d = Integer.parseInt (JOptionPane.showInputDialog("Digite fórmula para saber a área"));
+         if (d == 1);  
+    }
+    
+    
+}
+
