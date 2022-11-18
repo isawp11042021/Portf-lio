@@ -1,0 +1,16 @@
+ public static void main(String[] args) {
+        int qnt = Integer.parseInt(JOptionPane.showInputDialog
+        ("Quantos alunos deseja cadastrar?"));
+        ArrayList<aluno> lista = new ArrayList<>();
+        for(int i = 0; i < qnt; i++){
+            String nome = JOptionPane.showInputDialog
+            ("Digite o nome:");
+            String matrícula = JOptionPane.showInputDialog
+                    ("Digite o número da matrícula");
+            int idade = Integer.parseInt(JOptionPane.showInputDialog
+            ("Digite a idade de: "+nome));
+            String cpf = JOptionPane.showInputDialog
+            ("Digite o CPF de: "+nome);
+            aluno p = new aluno(nome, idade, cpf, matrícula);
+            lista.add(p);
+
